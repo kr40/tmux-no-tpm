@@ -1,0 +1,21 @@
+# Alias's for TMUX
+alias t="tat"
+alias ta="tmux a -t"
+alias tls="tmux ls"
+          
+
+
+# Check if in tmux
+_not_inside_tmux() { 
+ [[ -z "$TMUX" ]] 
+}
+
+ensure_tmux_is_running() {
+  if _not_inside_tmux; then
+    tat
+  fi
+}
+
+ ensure_tmux_is_running
+ 
+ 
