@@ -26,11 +26,12 @@ echo Adding tat
 
 cp tat.sh ~/tat.sh
 chmod a+x ~/tat.sh
-ln -sf ~/tat.sh /usr/bin/tat
+sudo ln -sf ~/tat.sh /usr/bin/tat
 
 echo Adding Aliases and Functions
 
-cat aliases.txt >> ~/.profile
+cat aliases.txt >> ~/.bashrc
+cat aliases.txt >> ~/.zshrc
 
 echo Please Restart You Terminal
 
