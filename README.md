@@ -9,7 +9,7 @@
 
 - `git clone https://github.com/kr40/tmux-config.git`
 - `cd tmux-config`
-- `sudo chmod +x install.sh`.
-- `./install.sh`.
-- Restart the terminal.
+- `sudo chmod +x install.sh`
+- `./install.sh`
+- Restart the terminal
 
