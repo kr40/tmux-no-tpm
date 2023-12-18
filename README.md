@@ -1,4 +1,4 @@
-# TMUX Config
+# TMUX Config installer without using TPM
 
 - This is my TMUX config for linux based systems
 - Works with `bash`, `zsh` for other added the contents of `aliases.txt` to your `.rc` file
